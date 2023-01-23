@@ -37,3 +37,16 @@ body {
 .icons div img {
     width: 100%;
 }
+
+#newBadge {
+    cursor: pointer;
+}
+
+#newBadge:hover #blackcackground { fill: blue;}
+
+#smalltext { transition: all 0.5 ease; transform-origin: 50%; }
+
+#newBadge :hover #smalltext {
+    fill: white;
+    transform: rotate (130deg)
+ }

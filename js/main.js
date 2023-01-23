@@ -8,14 +8,14 @@ document refers to the index.html page; querySelector is HOW JS uses CSS to sele
 
 // step 1 - select the elements you want to interact with
 
-let bitmapGraphic = document.querySelector("#bitmapGraphic");
+let theBadge = document.querySelector("#newBadge");
 
 // step 3 - what happens when events are triggered?
 
 function logID() {
-    console.log(this.id);
+    console.log('user clicked on this graphic', this.id);
 }
 
 // step 2 - how do you want the user to interact with the elemennt?
 
-bitmapGraphic.addEventListener('click', logID);
+theBadge.addEventListener('click', logID);
