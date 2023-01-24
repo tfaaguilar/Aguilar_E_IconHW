@@ -33,7 +33,7 @@
         fill: red;
       }
 
-/* interactive styles*/
+/ * interactive styles * /
 
 #badge:hover #blackbackground { fill: orange; }
 
