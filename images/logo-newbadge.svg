@@ -33,9 +33,10 @@
         fill: red;
       }
 
-/ * interactive styles * /
+/* interactive styles */
 
-#badge:hover #blackbackground { fill: orange; }
+    #badge:hover #blackbackground { fill: orange; }
+    
 
     </style>
   </defs>
