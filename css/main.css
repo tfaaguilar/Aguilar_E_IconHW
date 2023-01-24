@@ -42,7 +42,7 @@ body {
     cursor: pointer;
 }
 
-#newBadge:hover #blackcackground { fill: blue;}
+#newBadge:hover #blackbackground { fill: blue;}
 
 #smalltext { transition: all 0.5 ease; transform-origin: 50%; }
 
@@ -50,3 +50,5 @@ body {
     fill: white;
     transform: rotate (130deg)
  }
+
+ 
